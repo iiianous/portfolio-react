@@ -8,9 +8,6 @@ const useStyles = makeStyles((theme) => ({
         paddingBottom: 90,
         backgroundColor: theme.palette.grey[800]
     },
-    btn: {
-        marginTop: 20,
-    },
     textColor: {
         color: '#ffffff'
     }

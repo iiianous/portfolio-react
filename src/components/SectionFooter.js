@@ -9,12 +9,6 @@ const useStyles = makeStyles((theme) => ({
         paddingTop: 90,
         paddingBottom: 90
     },
-    btn: {
-        marginTop: 20,
-    },
-    textColor: {
-        color: '#ffffff'
-    },
     social: {
         '& a': {
             display: 'inline-block',
@@ -43,16 +37,16 @@ function SectionFooter() {
                 <Container maxWidth="lg">
                     <Grid container direction="column" alignContent="center" justifyContent="center">
                         <Box className={classes.social} marginBottom={2}>
-                            <a href="www.google.com" >
+                            <a target="_blank" rel="noreferrer" href="https://www.facebook.com" >
                                 <FontAwesomeIcon icon={faFacebookF}/>
                             </a>
-                            <a href="www.google.com" >
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com" >
                                 <FontAwesomeIcon icon={faInstagram}/>
                             </a>
-                            <a href="www.google.com" >
+                            <a target="_blank" rel="noreferrer" href="https://www.twitter.com" >
                                 <FontAwesomeIcon icon={faTwitter}/>
                             </a>
-                            <a href="www.google.com" >
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com" >
                                 <FontAwesomeIcon icon={faLinkedin}/>
                             </a>
                         </Box>
