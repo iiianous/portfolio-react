@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 
             '& a': {
                 display: 'block',
-                padding: '15px 20px 15px 20px',
+                padding: '15px',
                 textDecoration: 'none',
                 color: '#ffffff'
             },
@@ -55,9 +55,6 @@ function Navigation() {
                                 </li>
                                 <li>
                                     <NavLink exact activeClassName={classes.active} to="/link1">Link1</NavLink>
-                                </li>
-                                <li>
-                                    <NavLink exact activeClassName={classes.active} to="/link2">Link2</NavLink>
                                 </li>
                             </ul>
                         </Grid>

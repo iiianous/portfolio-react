@@ -56,7 +56,7 @@ function SectionFooter() {
                                 <FontAwesomeIcon icon={faLinkedin}/>
                             </a>
                         </Box>
-                        <Typography>Powered By: HTML/CSS</Typography>
+                        <Typography align="center">Powered By: HTML/CSS</Typography>
                     </Grid>
                 </Container>
             </Container>
