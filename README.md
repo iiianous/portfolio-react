@@ -1,26 +1,14 @@
-# Getting Started with Create React App
+# Code Camp for React, Material-UI 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## Live demo
+https://portfolio-react-d9daf.web.app/
 ## Preview page
 ![Preview page](https://github.com/iiianous/portfolio-react/blob/198bb8960fc830dde61e06327695359bd13aa4f4/src/screenshot/sshot.jpg)
 
-## Available Scripts
+## Install
+### `yarn install` or `npm install`
 
-In the project directory, you can run:
+## Run development application
+### `yarn start` or `npm start`
 
-### `yarn start`
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
