@@ -28,6 +28,10 @@ const useStyles = makeStyles((theme) => ({
 function SectionBanner() {
     const classes = useStyles();
 
+    const handleClick = () => {
+        window.open("https://github.com/iiianous/portfolio-react/", "_blank");
+    }
+
     return (
         <>
             <Container className={classes.root} maxWidth={false}>
@@ -39,8 +43,8 @@ function SectionBanner() {
                         <Typography variant="h5" className={classes.textColor} align="center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan.
                         </Typography>
-                        <Button disableElevation size="large" className={classes.btn} color="secondary" variant="contained">
-                            Get Started
+                        <Button onClick={handleClick} disableElevation size="large" className={classes.btn} color="secondary" variant="contained">
+                            View source code
                         </Button>
                     </Grid>
                 </Container>
