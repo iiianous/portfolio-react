@@ -1,4 +1,5 @@
-# Code Camp for React, Material-UI 
+# Code Camp for React, Material-UI
+Learning materials for teaching
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Live demo
